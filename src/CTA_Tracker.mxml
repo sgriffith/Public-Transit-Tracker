@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" xmlns:components="net.digitalprimates.ctatracker.components.*">
+	<fx:Script>
+		<![CDATA[
+			import net.digitalprimates.ctatracker.components.RouteLister;
+			
+			private var net_digitalprimates_ctatracker_components_RouteLister_obj:net.digitalprimates.ctatracker.components.RouteLister;
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<components:RouteLister
+		skinClass="net.digitalprimates.ctatracker.skins.RouteListerSkin"/>
+</s:Application>
